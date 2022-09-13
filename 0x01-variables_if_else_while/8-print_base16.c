@@ -12,9 +12,9 @@ int main(void)
 	char alpha;
 
 	for (a = '0'; a <= '9'; a++)
-		putchar(a);
+	putchar(a);
 	for (alpha = 'a'; alpha <= 'f'; alpha++)
-		putchar(alpha);
-		putchar('\n');
+	putchar(alpha);
+	putchar('\n');
 	return (0);
 }

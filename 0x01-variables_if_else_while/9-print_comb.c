@@ -4,6 +4,7 @@
 
 /**
  * main - Entry point
+ *
  * Result: 0
  */
 

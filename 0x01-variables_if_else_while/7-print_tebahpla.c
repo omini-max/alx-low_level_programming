@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - program that prints lower case letters in reverse then a new line.
  * putchar can only be used twice
@@ -7,10 +8,10 @@
  */
 int main(void)
 {
-	char = a;
+	char low;
 
-	for (a = 'z'; a >= 'a'; a--)
-	putchar(a);
+	for (low = 'z'; low >= 'a'; low--)
+	putchar(low);
 	putchar('\n');
 	return (0)
 }

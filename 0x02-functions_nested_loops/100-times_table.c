@@ -18,9 +18,7 @@ void print_times_table(int n)
 		{
 			rep = a * b;
 			if (b == 0)
-			{
 				_putchar('0' + rep);
-			}
 			else if (rep < 10)
 			{
 				_putchar(' ');
@@ -40,10 +38,8 @@ void print_times_table(int n)
 				_putchar('0' + rep % 10);
 			}
 			if (b < n)
-			{
 				_putchar(',');
 				_putchar(' ');
-			}
 		}
 		_putchar('\n');
 		a++;

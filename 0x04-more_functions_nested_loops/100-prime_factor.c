@@ -17,16 +17,10 @@ int main(void)
 
 	while (1)
 	{
-		if ((n % a) == 0)
+		if (n % a == 0)
 		{
-			for (i = (a - 1); i <= 2; i--)
-			{
-				if ((a % i) != 0)
-				{
-					printf("%lu \n", a);
-					break;
-				}
-			}
+			printf("%lu \n", a / n);
+			break;
 		}
 		a--;
 	}

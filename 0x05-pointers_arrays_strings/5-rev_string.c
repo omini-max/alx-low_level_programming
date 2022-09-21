@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+#include <string.h>
 /**
  * rev_string - write a function that prints string in reverse
  * @s: string to check
@@ -6,20 +8,13 @@
  */
 void rev_string(char *s)
 {
-	int len, i, half;
-	char temp;
+	int i;
 
-	for (len = 0; s[len] != '\0'; len++)
+	i = strlen(s) - 1;
+	while (i >= 0)
 	{
-		i = 0;
-		half = len / 2;
-
-		while (half--)
-		{
-			temp = s[len - i - 1];
-			s[len - i - 1] = s[i];
-			s[i] = temp;
-			i++;
-		}
+		_putchar(s[i]);
+		i--;
 	}
+	_putchar('\n');
 }

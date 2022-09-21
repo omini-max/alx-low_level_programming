@@ -13,7 +13,7 @@ void print_rev(char *s)
 	int i = p - 1;
 	while (i != 0)
 	{
-		_puthchar('s[i]');
+		_puthchar(s[i]);
 		i--;
 	}
 	_putchar('\n')
